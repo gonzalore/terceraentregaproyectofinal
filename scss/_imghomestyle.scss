@@ -1,0 +1,27 @@
+$widht: 50%;
+$maxwidth: 50%;
+$height: 50%; 
+
+.imgAuto{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    
+}
+
+//uso operaciones para el tamaño de la imagen
+
+.my-img{
+
+    width: $widht*2;
+    max-width:$widht*2;
+    
+}
+
+//valores para el extend del contenedor
+
+%heightCont {
+  width: 85%;
+  max-width: auto;
+  margin: 0 auto;
+}
